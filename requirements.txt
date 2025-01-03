@@ -1,0 +1,10 @@
+streamlit
+streamlit-option-menu
+mysql-connector-python
+pytesseract
+pyzbar
+qrcode[pil]
+pycryptodome
+opencv-python
+numpy
+pymupdf
