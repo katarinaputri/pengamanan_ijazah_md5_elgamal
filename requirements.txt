@@ -8,3 +8,4 @@ pycryptodome
 opencv-python
 numpy
 pymupdf
+Pillow
