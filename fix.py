@@ -31,10 +31,10 @@ import numpy as np
 def connect_to_db():
     secrets = st.secrets["mysql"]
     return mysql.connector.connect(
-        host=secrets["localhost"],
-        user=secrets["root"],
-        password=secrets[""],
-        database=secrets["skripsi"]
+        host=secrets["host"],
+        user=secrets["user"],
+        password=secrets["password"],
+        database=secrets["database"]
     )
 
 # Menggunakan koneksi
