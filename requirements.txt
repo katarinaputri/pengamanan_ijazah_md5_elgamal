@@ -10,3 +10,7 @@ opencv-python-headless
 numpy
 pymupdf
 Pillow
+
+# requirements.txt
+gcsfs==2024.12.0
+st-files-connection
