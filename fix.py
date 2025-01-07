@@ -29,7 +29,7 @@ import numpy as np
 
 # Fungsi untuk menghubungkan ke database
 def connect_to_db():
-    secrets = st.secrets["mysql"]
+    secrets = st.secrets["db"]
     return mysql.connector.connect(
         host=secrets["host"],
         user=secrets["user"],
